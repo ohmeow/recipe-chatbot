@@ -15,3 +15,6 @@ dependencies = [
 
 [tool.ruff]
 line-length = 140
+
+[tool.ruff.lint]
+ignore = ["E402"]
