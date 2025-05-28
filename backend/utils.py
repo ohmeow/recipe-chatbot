@@ -7,6 +7,7 @@ wrapper around litellm so the rest of the application stays decluttered.
 """
 
 import os
+from pathlib import Path
 from typing import Final, List, Dict
 
 import litellm  # type: ignore
